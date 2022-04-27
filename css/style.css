@@ -8,6 +8,7 @@ input {
     width: 80%;
     border: 0.04px solid #b8806e;
     border-radius: 4px;
+    margin-top: 5px;
 }
 
 .page{
@@ -30,13 +31,19 @@ input {
 
 .content__login__item {
     color: #393839;
-    margin-top: 12%;
+    margin-top: 10%;
     text-align: center;
 }
 
 .content__login__item ~ form {
-    height: 25%;
+    height: 30%;
     font-weight: 500;
+}
+
+.content__login__item > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .page__content__image {
