@@ -22,29 +22,29 @@ input {
     grid-template-columns: 0.41fr 1fr;
 }
 
-.content__login {
+.page__content__login {
     grid-area: login;
     height: 100vh;
     background: linear-gradient(to right top, #f78e6b, #eea187);
 }
 
-.login__item {
+.content__login__item {
     color: #393839;
     margin-top: 12%;
     text-align: center;
 }
 
-.login__item ~ form {
+.content__login__item ~ form {
     height: 25%;
     font-weight: 500;
 }
 
-.content__image{
+.page__content__image {
     grid-area: image;
     height: 100vh;
 }
 
-.content__image img {
+.content__image__item > * {
     height: 100%;
     width: 100%;
 }
@@ -55,7 +55,7 @@ input {
         "login login";
     }
 
-    .content__image img{
+    .content__image__item > * {
         display: none;
     }
 }
